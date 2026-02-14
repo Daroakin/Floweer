@@ -56,7 +56,7 @@ var doc=document,flower=doc.querySelector('.flower'),petalPartMarkup='<div class
 
 
   function createHeartRain() {
-  const duration = 3000; // duración total
+  const duration = 4000; // duración total
   const end = Date.now() + duration;
 
   const interval = setInterval(() => {
@@ -194,9 +194,9 @@ var doc=document,flower=doc.querySelector('.flower'),petalPartMarkup='<div class
             if (i < text.length) {
               msg.textContent += text.charAt(i);
               i++;
-              setTimeout(type, 90);
+              setTimeout(type, 160);
             } else if (cb) {
-              setTimeout(cb, 1000);
+              setTimeout(cb, 4000);
             }
           }
           type();
