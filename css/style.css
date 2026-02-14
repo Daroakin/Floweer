@@ -107,7 +107,7 @@ BODY {
     text-align: center !important;
     font-size: 6vmin !important;
     line-height: 1.3 !important;
-
+    word-spacing: 4px;
     z-index: 100 !important;
   }
 }
